@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(70, 142, 236);
+    font: normal 15pt arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    margin: auto;
+    padding: 15px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, .4);
+    color: white;  
+}
+
+input{
+    border-radius: 10px;
+    width: 100px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+}
+
+button{
+    padding: 5px;
+    border-radius: 10px;
+    transition: .3s;
+    cursor: pointer;
+    border: none;
+    margin-left: 10px;
+}
+
+button:hover{
+    background-color: rgb(157, 146, 228);
+}
+
+select{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
